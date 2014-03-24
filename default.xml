@@ -7,6 +7,7 @@
   <remote fetch="git://github.com/Freescale" name="freescale"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
   <remote fetch="git://github.com/mahyar-ym" name="mahyar-ym"/>
+  <remote fetch="git://github.com" name="github"/>
   
   <project remote="mahyar-ym" revision="master" name="meta-boundary" path="sources/meta-boundary"/>
   <project remote="yocto" revision="master" name="poky" path="sources/poky"/>
@@ -21,5 +22,6 @@
 
   <project remote="freescale" revision="master" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
   <project remote="freescale" revision="master" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
+  <project remote="github" revision="master" name="meta-qt5" path="sources/meta-qt5"/>
 
 </manifest>
