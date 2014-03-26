@@ -4,12 +4,10 @@
   <default sync-j="4" revision="dora"/>
 
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
-  <remote fetch="git://github.com/Freescale" name="freescale"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
   <remote fetch="git://github.com/mahyar-ym" name="mahyar-ym"/>
-  <remote fetch="git://github.com/meta-qt5" name="qt5"/>
-  <remote fetch="https://github.com/OSSystems" name="OSSystems"/> 
-  
+  <remote fetch="git://github.com" name="github"/>
+
   <project remote="mahyar-ym" revision="master" name="meta-boundary" path="sources/meta-boundary"/>
   <project remote="yocto" revision="master" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="master" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
@@ -21,9 +19,9 @@
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="freescale" revision="master" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
-  <project remote="freescale" revision="master" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
-  <project remote="qt5" revision="master" name="meta-qt5" path="sources/meta-qt5"/>
-  <project remote="OSSystems" revision="master" name="meta-browser" path="sources/OSSystems/meta-browser"/> 
+  <project remote="github" revision="master" name="Freescale/meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
+  <project remote="github" revision="master" name="Freescale/meta-fsl-demos" path="sources/meta-fsl-demos"/>
+  <project remote="github" revision="master" name="meta-qt5/meta-qt5" path="sources/meta-qt5"/>
+  <project remote="github" revision="master" name="OSSystems/meta-browser" path="sources/OSSystems/meta-browser"/> 
 
 </manifest>
