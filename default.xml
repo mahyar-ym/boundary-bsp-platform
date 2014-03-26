@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4" revision="dora"/>
+  <default sync-j="4" revision="master"/>
 
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
   <remote fetch="git://github.com/mahyar-ym" name="mahyar-ym"/>
   <remote fetch="git://github.com" name="github"/>
 
-  <project remote="mahyar-ym" revision="master" name="meta-boundary" path="sources/meta-boundary"/>
+  <project remote="github" revision="master" name="mahyar-ym/meta-boundary" path="sources/meta-boundary"/>
   <project remote="yocto" revision="master" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="master" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
 
   <project remote="oe" revision="master" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="mahyar-ym" revision="master" name="fsl-community-bsp-base" path="sources/base">
+  <project remote="github" revision="master" name="mahyar-ym/fsl-community-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
