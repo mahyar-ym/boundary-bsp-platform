@@ -13,7 +13,7 @@
 
   <project remote="oe" revision="master" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="github" revision="master" name="mahyar-ym/fsl-community-bsp-base" path="sources/base">
+  <project remote="github" revision="master" name="mahyar-ym/boundary-community-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
