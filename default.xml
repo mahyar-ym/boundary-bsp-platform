@@ -8,8 +8,8 @@
   <remote fetch="git://github.com" name="github"/>
 
   <project remote="github" revision="master" name="mahyar-ym/meta-boundary" path="sources/meta-boundary"/>
-  <project remote="yocto" revision="daisy" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="daisy" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
+  <project remote="yocto" revision="master" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="master" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
 
   <project remote="oe" revision="master" name="meta-openembedded" path="sources/meta-openembedded"/>
 
@@ -18,8 +18,8 @@
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="github" revision="daisy" name="Freescale/meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
-  <project remote="github" revision="daisy" name="Freescale/meta-fsl-demos" path="sources/meta-fsl-demos"/>
+  <project remote="github" revision="master" name="Freescale/meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
+  <project remote="github" revision="master" name="Freescale/meta-fsl-demos" path="sources/meta-fsl-demos"/>
   <project remote="github" revision="master" name="meta-qt5/meta-qt5" path="sources/meta-qt5"/>
   <project remote="github" revision="master" name="OSSystems/meta-browser" path="sources/OSSystems/meta-browser"/> 
 
